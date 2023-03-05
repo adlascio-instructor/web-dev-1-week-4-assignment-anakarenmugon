@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,600&family=Krub:wght@400;700&family=Poppins:wght@400;500;600&family=Righteous&family=Roboto:wght@400;500&family=Work+Sans:wght@100;200;300;400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+h1{
+   color:  #d4ccb6;
+}
+p{
+    color:  #d4ccb6;
+}
+h5{
+    color:#ffc632;
+    justify-content: space-around;
+}
+
+body {
+    font-family: 'Roboto';
+    background: #191816;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191816;
+}
+form{
+    width: 40%;
+    margin: auto;
+    margin-top: 200px;
+    background: #24221f;
+    padding: 120px 95px;
+}
+form .group-input{
+    position: relative;
+}
+form .group-input input{
+    padding: 8px 0px 8px 140px;
+    margin-bottom: 8px;
+    outline: none;
+    background-color: #24221f;
+}
+form .group-input i {
+    position: absolute;
+    margin-left: 10px;
+    top: 14px;
+    font-size: 20px;
+    color:#ffc632;
+}
+form .checkbox{
+    color: #afb6c2;
+    display: flex;
+}
+form .link {
+    color: rgb(255, 198, 50);
+    margin-bottom: 0.5px;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: right;
+}
+form button{
+    color:#191816; 
+    border: none; 
+    background: linear-gradient(to right,#ffc632, #ffbf1c);
+    padding: 8px 0px 8px 247px;
+    cursor: pointer;
+    font-size: 10px;
+
+}
+/* form button {
+    padding: 8px 0px 8px 232px;
+    margin-bottom: 8px;
+    outline: none;
+    background-color: #24221f;
+    background: linear-gradient(to right,#ffc632, #ffbf1c);
+    text-align: center; */
+} */
+form .account{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+form .account legend{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+form .account span{
+    color: #ffc632;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+}
+
